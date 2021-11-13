@@ -5,11 +5,13 @@ import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiOculusEggOnOff;
 import net.minecraft.entity.item.EntityFallingBlock;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumParticleTypes;
@@ -74,7 +76,8 @@ public class BlockDragonEgg extends Block
 
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ)
     {
-        this.dropBlockAsItem(worldIn,pos,state,1);
+        //this.dropBlockAsItem(worldIn,pos,state,1);
+        Minecraft.logger.info("Hier wird geclickt");
         this.teleport(worldIn, pos);
         return true;
     }
@@ -112,39 +115,102 @@ public class BlockDragonEgg extends Block
     private void teleport(World worldIn, BlockPos pos)
     {
         Minecraft.logger.info(worldIn.getSeed());
-        System.out.println(worldIn.getSeed());
         IBlockState iblockstate = worldIn.getBlockState(pos);
-        boolean on=true;
+        boolean activ= GuiOculusEggOnOff.actiiv;
+        boolean on=GuiOculusEggOnOff.block_switch;
         BlockPos pos_davor=pos.add(0,-1,0);
         Block davor=worldIn.getBlockState(pos_davor).getBlock();
-        if (iblockstate.getBlock() == this)
+        BlockPos blockposi=null;
+        if(activ)
         {
-            for (int i = 0; i < 1000; ++i)
+            MinecraftServer server=MinecraftServer.getServer();
+//            Minecraft.logger.info(server.getEntityWorld().getSeed());
+////        server.deleteWorldAndStopServer();
+//            if(server!=null)
+//            {
+//                if(server.worldServers!=null)
+//                {
+//                    for (int i = 0; i < server.worldServers.length; i++) {
+//                        Minecraft.logger.info(i + server.worldServers[i].getProviderName() + server.worldServers[i].getSeed());
+//                    }
+//                }
+//                else
+//                {
+//                    Minecraft.logger.info("worldServer null");
+//                }
+//            }
+//            else
+//            {
+//                Minecraft.logger.info("server null");
+//            }
+            if (iblockstate.getBlock() == this)
             {
-                BlockPos blockpos = pos.add(worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16), 0, worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16));
-                BlockPos pos_neu=blockpos.add(0,-1,0);
-                if (worldIn.getBlockState(blockpos).getBlock().blockMaterial == Material.air&& (worldIn.getBlockState(pos_neu).getBlock().getClass()!=davor.getClass())==on)
+                for (int i = 0; i < 1000; ++i)
                 {
-                    Minecraft.s="\nSeed: "+worldIn.getSeed()+"\nNeu: "+worldIn.getBlockState(pos_neu).getBlock().getClass().toString()+"\nAlt:"+davor.getClass();
-                    Minecraft.logger.info(Minecraft.s);
-                    System.out.println(Minecraft.s);
-                    if (worldIn.isRemote)
+                    BlockPos blockpos = pos.add(worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16), 0, worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16));
+                    BlockPos pos_neu=blockpos.add(0,-1,0);
+                    if (worldIn.getBlockState(blockpos).getBlock().blockMaterial == Material.air&&worldIn.getBlockState(pos_neu).getBlock().blockMaterial != Material.air&& (worldIn.getBlockState(pos_neu).getBlock().getClass()!=davor.getClass())==on)
                     {
-                        for (int j = 0; j < 128; ++j)
+                        Minecraft.s="\nSeed: "+worldIn.getSeed()+"\nNeu: "+worldIn.getBlockState(pos_neu).getBlock().getClass().toString()+"\nAlt:"+davor.getClass();
+                        Minecraft.logger.info(Minecraft.s);
+                        if (worldIn.isRemote)
                         {
-                            double d0 = worldIn.rand.nextDouble();
-                            float f = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
-                            float f1 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
-                            float f2 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
-                            double d1 = (double)blockpos.getX() + (double)(pos.getX() - blockpos.getX()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
-                            double d2 = (double)blockpos.getY() + (double)(pos.getY() - blockpos.getY()) * d0 + worldIn.rand.nextDouble() * 1.0D - 0.5D;
-                            double d3 = (double)blockpos.getZ() + (double)(pos.getZ() - blockpos.getZ()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
-                            worldIn.spawnParticle(EnumParticleTypes.PORTAL, d1, d2, d3, (double)f, (double)f1, (double)f2, new int[0]);
+                            for (int j = 0; j < 128; ++j)
+                            {
+                                double d0 = worldIn.rand.nextDouble();
+                                float f = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                float f1 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                float f2 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                double d1 = (double)blockpos.getX() + (double)(pos.getX() - blockpos.getX()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
+                                double d2 = (double)blockpos.getY() + (double)(pos.getY() - blockpos.getY()) * d0 + worldIn.rand.nextDouble() * 1.0D - 0.5D;
+                                double d3 = (double)blockpos.getZ() + (double)(pos.getZ() - blockpos.getZ()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
+                                worldIn.spawnParticle(EnumParticleTypes.PORTAL, d1, d2, d3, (double)f, (double)f1, (double)f2, new int[0]);
+                            }
                         }
+                        worldIn.setBlockState(blockpos, iblockstate, 2);
+                        worldIn.setBlockToAir(pos);
+                        if(worldIn.isRemote)
+                        {
+                            worldIn.setBlockToAir(blockpos);
+                        }
+                        return;
                     }
-                    worldIn.setBlockState(blockpos, iblockstate, 2);
-                    worldIn.setBlockToAir(pos);
-                    return;
+                }
+            }
+        }
+        else
+        {
+            if (iblockstate.getBlock() == this)
+            {
+                for (int i = 0; i < 1000; ++i)
+                {
+                    BlockPos blockpos = pos.add(worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16), worldIn.rand.nextInt(8) - worldIn.rand.nextInt(8), worldIn.rand.nextInt(16) - worldIn.rand.nextInt(16));
+
+                    if (worldIn.getBlockState(blockpos).getBlock().blockMaterial == Material.air)
+                    {
+                        if (worldIn.isRemote)
+                        {
+                            for (int j = 0; j < 128; ++j)
+                            {
+                                double d0 = worldIn.rand.nextDouble();
+                                float f = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                float f1 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                float f2 = (worldIn.rand.nextFloat() - 0.5F) * 0.2F;
+                                double d1 = (double)blockpos.getX() + (double)(pos.getX() - blockpos.getX()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
+                                double d2 = (double)blockpos.getY() + (double)(pos.getY() - blockpos.getY()) * d0 + worldIn.rand.nextDouble() * 1.0D - 0.5D;
+                                double d3 = (double)blockpos.getZ() + (double)(pos.getZ() - blockpos.getZ()) * d0 + (worldIn.rand.nextDouble() - 0.5D) * 1.0D + 0.5D;
+                                worldIn.spawnParticle(EnumParticleTypes.PORTAL, d1, d2, d3, (double)f, (double)f1, (double)f2, new int[0]);
+                            }
+                        }
+                        else
+                        {
+                            worldIn.setBlockState(blockpos, iblockstate, 2);
+                            System.out.println("WAT BLYAT");
+                            worldIn.setBlockToAir(pos);
+                        }
+
+                        return;
+                    }
                 }
             }
         }

@@ -1,13 +1,497 @@
-[23:37:32] [Client thread/INFO]: Setting user: Player953
-[23:37:32] [Client thread/INFO]: (Session ID is token:0:Player953)
-[23:37:32] [Client thread/INFO]: LWJGL Version: 2.9.4
-[23:37:33] [Client thread/INFO]: Reloading ResourceManager: Default
-[23:37:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:37:33] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[23:37:33] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:37:33] [Thread-5/INFO]: OpenAL initialized.
-[23:37:34] [Sound Library Loader/INFO]: Sound engine started
-[23:37:35] [Client thread/INFO]: Created: 512x512 textures-atlas
-[23:37:41] [Client thread/INFO]: Stopping!
-[23:37:41] [Client thread/INFO]: SoundSystem shutting down...
-[23:37:41] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[22:57:56] [Client thread/INFO]: Setting user: Player484
+[22:57:56] [Client thread/INFO]: (Session ID is token:0:Player484)
+[22:57:57] [Client thread/INFO]: LWJGL Version: 2.9.4
+[22:57:57] [Client thread/INFO]: Reloading ResourceManager: Default
+[22:57:57] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:57:57] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[22:57:57] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:57:57] [Thread-5/INFO]: OpenAL initialized.
+[22:57:58] [Sound Library Loader/INFO]: Sound engine started
+[22:58:00] [Client thread/INFO]: Created: 512x512 textures-atlas
+[22:58:10] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[22:58:10] [Server thread/INFO]: Generating keypair
+[22:58:10] [Server thread/INFO]: Preparing start region for level 0
+[22:58:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:58:11] [Server thread/INFO]: Player484[local:E:6aa06591] logged in with entity id 41 at (896.2375000119209, 4.0, 291.0245469452149)
+[22:58:11] [Server thread/INFO]: Player484 joined the game
+[22:58:15] [Client thread/INFO]: Hier wird geclickt
+[22:58:15] [Client thread/INFO]: 0
+[22:58:15] [Server thread/INFO]: Hier wird geclickt
+[22:58:15] [Server thread/INFO]: -3752490015881447282
+[22:58:21] [Server thread/INFO]: Saving and pausing game...
+[22:58:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:58:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:58:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:58:25] [Client thread/INFO]: Hier wird geclickt
+[22:58:25] [Client thread/INFO]: 0
+[22:58:25] [Client thread/INFO]: -3752490015881447282
+[22:58:25] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:58:25] [Server thread/INFO]: Hier wird geclickt
+[22:58:25] [Server thread/INFO]: -3752490015881447282
+[22:58:25] [Server thread/INFO]: -3752490015881447282
+[22:58:25] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:58:31] [Server thread/INFO]: Saving and pausing game...
+[22:58:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:58:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:58:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:59:36] [Server thread/INFO]: Saving and pausing game...
+[22:59:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:59:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:59:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:59:38] [Server thread/INFO]: Saving and pausing game...
+[22:59:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:59:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:59:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:59:42] [Client thread/INFO]: Hier wird geclickt
+[22:59:42] [Client thread/INFO]: 0
+[22:59:42] [Client thread/INFO]: -3752490015881447282
+[22:59:42] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:42] [Server thread/INFO]: Hier wird geclickt
+[22:59:42] [Server thread/INFO]: -3752490015881447282
+[22:59:42] [Server thread/INFO]: -3752490015881447282
+[22:59:42] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:45] [Client thread/INFO]: Hier wird geclickt
+[22:59:45] [Client thread/INFO]: 0
+[22:59:45] [Client thread/INFO]: -3752490015881447282
+[22:59:45] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:59:45] [Server thread/INFO]: Hier wird geclickt
+[22:59:45] [Server thread/INFO]: -3752490015881447282
+[22:59:45] [Server thread/INFO]: -3752490015881447282
+[22:59:45] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:59:47] [Client thread/INFO]: Hier wird geclickt
+[22:59:47] [Client thread/INFO]: 0
+[22:59:47] [Client thread/INFO]: -3752490015881447282
+[22:59:47] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:47] [Server thread/INFO]: Hier wird geclickt
+[22:59:47] [Server thread/INFO]: -3752490015881447282
+[22:59:47] [Server thread/INFO]: -3752490015881447282
+[22:59:47] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:51] [Client thread/INFO]: Hier wird geclickt
+[22:59:51] [Client thread/INFO]: 0
+[22:59:51] [Client thread/INFO]: -3752490015881447282
+[22:59:51] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:59:51] [Server thread/INFO]: Hier wird geclickt
+[22:59:51] [Server thread/INFO]: -3752490015881447282
+[22:59:51] [Server thread/INFO]: -3752490015881447282
+[22:59:51] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockGrass
+Alt:class net.minecraft.block.BlockDropper
+[22:59:53] [Server thread/INFO]: Saving and pausing game...
+[22:59:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:59:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:59:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:59:55] [Client thread/INFO]: Hier wird geclickt
+[22:59:55] [Client thread/INFO]: 0
+[22:59:55] [Client thread/INFO]: -3752490015881447282
+[22:59:55] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:55] [Server thread/INFO]: Hier wird geclickt
+[22:59:55] [Server thread/INFO]: -3752490015881447282
+[22:59:55] [Server thread/INFO]: -3752490015881447282
+[22:59:55] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockGrass
+[22:59:56] [Server thread/INFO]: Saving and pausing game...
+[22:59:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:59:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:59:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:59:59] [Client thread/INFO]: Hier wird geclickt
+[22:59:59] [Client thread/INFO]: 0
+[22:59:59] [Client thread/INFO]: -3752490015881447282
+[22:59:59] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[22:59:59] [Server thread/INFO]: Hier wird geclickt
+[22:59:59] [Server thread/INFO]: -3752490015881447282
+[22:59:59] [Server thread/INFO]: -3752490015881447282
+[22:59:59] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:00] [Client thread/INFO]: Hier wird geclickt
+[23:00:00] [Client thread/INFO]: 0
+[23:00:00] [Client thread/INFO]: -3752490015881447282
+[23:00:00] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:00] [Server thread/INFO]: Hier wird geclickt
+[23:00:00] [Server thread/INFO]: -3752490015881447282
+[23:00:00] [Server thread/INFO]: -3752490015881447282
+[23:00:00] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:03] [Client thread/INFO]: Hier wird geclickt
+[23:00:03] [Client thread/INFO]: 0
+[23:00:03] [Client thread/INFO]: -3752490015881447282
+[23:00:03] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:03] [Server thread/INFO]: Hier wird geclickt
+[23:00:03] [Server thread/INFO]: -3752490015881447282
+[23:00:03] [Server thread/INFO]: -3752490015881447282
+[23:00:03] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:04] [Client thread/INFO]: Hier wird geclickt
+[23:00:04] [Client thread/INFO]: 0
+[23:00:04] [Client thread/INFO]: -3752490015881447282
+[23:00:04] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:04] [Server thread/INFO]: Hier wird geclickt
+[23:00:04] [Server thread/INFO]: -3752490015881447282
+[23:00:04] [Server thread/INFO]: -3752490015881447282
+[23:00:04] [Server thread/INFO]: 
+Seed: -3752490015881447282
+Neu: class net.minecraft.block.BlockDropper
+Alt:class net.minecraft.block.BlockDropper
+[23:00:06] [Server thread/INFO]: Saving and pausing game...
+[23:00:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:00:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:00:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:00:10] [Server thread/INFO]: Stopping server
+[23:00:10] [Server thread/INFO]: Saving players
+[23:00:10] [Server thread/INFO]: Saving worlds
+[23:00:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:00:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:00:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:00:15] [Client thread/INFO]: Connecting to 51.91.62.53, 41223
+[23:00:32] [Client thread/INFO]: Hier wird geclickt
+[23:00:32] [Client thread/INFO]: 0
+[23:00:32] [Client thread/INFO]: -3752490015881447282
+[23:00:32] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.Block
+Alt:class net.minecraft.block.Block
+[23:00:32] [Client thread/INFO]: Hier wird geclickt
+[23:00:32] [Client thread/INFO]: 0
+[23:00:32] [Client thread/INFO]: -3752490015881447282
+[23:00:32] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.Block
+Alt:class net.minecraft.block.Block
+[23:00:39] [Client thread/INFO]: Hier wird geclickt
+[23:00:39] [Client thread/INFO]: 0
+[23:00:39] [Client thread/INFO]: -3752490015881447282
+[23:00:39] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:39] [Client thread/INFO]: 0
+[23:00:39] [Client thread/INFO]: -3752490015881447282
+[23:00:39] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:39] [Client thread/INFO]: 0
+[23:00:39] [Client thread/INFO]: -3752490015881447282
+[23:00:39] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:40] [Client thread/INFO]: Hier wird geclickt
+[23:00:40] [Client thread/INFO]: 0
+[23:00:40] [Client thread/INFO]: -3752490015881447282
+[23:00:40] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:40] [Client thread/INFO]: Hier wird geclickt
+[23:00:40] [Client thread/INFO]: 0
+[23:00:40] [Client thread/INFO]: -3752490015881447282
+[23:00:40] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:40] [Client thread/INFO]: Hier wird geclickt
+[23:00:40] [Client thread/INFO]: 0
+[23:00:40] [Client thread/INFO]: -3752490015881447282
+[23:00:40] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:40] [Client thread/INFO]: Hier wird geclickt
+[23:00:40] [Client thread/INFO]: 0
+[23:00:40] [Client thread/INFO]: -3752490015881447282
+[23:00:40] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:40] [Client thread/INFO]: Hier wird geclickt
+[23:00:40] [Client thread/INFO]: 0
+[23:00:40] [Client thread/INFO]: -3752490015881447282
+[23:00:40] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:42] [Client thread/INFO]: Hier wird geclickt
+[23:00:42] [Client thread/INFO]: 0
+[23:00:42] [Client thread/INFO]: -3752490015881447282
+[23:00:42] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:42] [Client thread/INFO]: Hier wird geclickt
+[23:00:42] [Client thread/INFO]: 0
+[23:00:42] [Client thread/INFO]: -3752490015881447282
+[23:00:42] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:42] [Client thread/INFO]: Hier wird geclickt
+[23:00:42] [Client thread/INFO]: 0
+[23:00:42] [Client thread/INFO]: -3752490015881447282
+[23:00:42] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:43] [Client thread/INFO]: Hier wird geclickt
+[23:00:43] [Client thread/INFO]: 0
+[23:00:43] [Client thread/INFO]: -3752490015881447282
+[23:00:43] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:43] [Client thread/INFO]: Hier wird geclickt
+[23:00:43] [Client thread/INFO]: 0
+[23:00:43] [Client thread/INFO]: -3752490015881447282
+[23:00:43] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:43] [Client thread/INFO]: Hier wird geclickt
+[23:00:43] [Client thread/INFO]: 0
+[23:00:43] [Client thread/INFO]: -3752490015881447282
+[23:00:43] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:43] [Client thread/INFO]: Hier wird geclickt
+[23:00:43] [Client thread/INFO]: 0
+[23:00:43] [Client thread/INFO]: -3752490015881447282
+[23:00:43] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:43] [Client thread/INFO]: Hier wird geclickt
+[23:00:43] [Client thread/INFO]: 0
+[23:00:43] [Client thread/INFO]: -3752490015881447282
+[23:00:43] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:44] [Client thread/INFO]: Hier wird geclickt
+[23:00:44] [Client thread/INFO]: 0
+[23:00:44] [Client thread/INFO]: -3752490015881447282
+[23:00:44] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:00:44] [Client thread/INFO]: Hier wird geclickt
+[23:00:44] [Client thread/INFO]: 0
+[23:00:44] [Client thread/INFO]: -3752490015881447282
+[23:00:44] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:04] [Client thread/INFO]: Hier wird geclickt
+[23:01:04] [Client thread/INFO]: 0
+[23:01:04] [Client thread/INFO]: -3752490015881447282
+[23:01:04] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:05] [Client thread/INFO]: Hier wird geclickt
+[23:01:05] [Client thread/INFO]: 0
+[23:01:05] [Client thread/INFO]: -3752490015881447282
+[23:01:05] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:05] [Client thread/INFO]: Hier wird geclickt
+[23:01:05] [Client thread/INFO]: 0
+[23:01:05] [Client thread/INFO]: -3752490015881447282
+[23:01:05] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:05] [Client thread/INFO]: Hier wird geclickt
+[23:01:05] [Client thread/INFO]: 0
+[23:01:05] [Client thread/INFO]: -3752490015881447282
+[23:01:05] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:06] [Client thread/INFO]: Hier wird geclickt
+[23:01:06] [Client thread/INFO]: 0
+[23:01:06] [Client thread/INFO]: -3752490015881447282
+[23:01:06] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:07] [Client thread/INFO]: Hier wird geclickt
+[23:01:07] [Client thread/INFO]: 0
+[23:01:07] [Client thread/INFO]: -3752490015881447282
+[23:01:07] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:07] [Client thread/INFO]: Hier wird geclickt
+[23:01:07] [Client thread/INFO]: 0
+[23:01:07] [Client thread/INFO]: -3752490015881447282
+[23:01:07] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:07] [Client thread/INFO]: Hier wird geclickt
+[23:01:07] [Client thread/INFO]: 0
+[23:01:07] [Client thread/INFO]: -3752490015881447282
+[23:01:07] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:07] [Client thread/INFO]: Hier wird geclickt
+[23:01:07] [Client thread/INFO]: 0
+[23:01:07] [Client thread/INFO]: -3752490015881447282
+[23:01:07] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:07] [Client thread/INFO]: Hier wird geclickt
+[23:01:07] [Client thread/INFO]: 0
+[23:01:07] [Client thread/INFO]: -3752490015881447282
+[23:01:07] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:08] [Client thread/INFO]: Hier wird geclickt
+[23:01:08] [Client thread/INFO]: 0
+[23:01:08] [Client thread/INFO]: -3752490015881447282
+[23:01:08] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:08] [Client thread/INFO]: Hier wird geclickt
+[23:01:08] [Client thread/INFO]: 0
+[23:01:08] [Client thread/INFO]: -3752490015881447282
+[23:01:08] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:08] [Client thread/INFO]: Hier wird geclickt
+[23:01:08] [Client thread/INFO]: 0
+[23:01:08] [Client thread/INFO]: -3752490015881447282
+[23:01:08] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:08] [Client thread/INFO]: Hier wird geclickt
+[23:01:08] [Client thread/INFO]: 0
+[23:01:08] [Client thread/INFO]: -3752490015881447282
+[23:01:08] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:08] [Client thread/INFO]: Hier wird geclickt
+[23:01:08] [Client thread/INFO]: 0
+[23:01:08] [Client thread/INFO]: -3752490015881447282
+[23:01:08] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:09] [Client thread/INFO]: Hier wird geclickt
+[23:01:09] [Client thread/INFO]: 0
+[23:01:09] [Client thread/INFO]: -3752490015881447282
+[23:01:09] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:09] [Client thread/INFO]: Hier wird geclickt
+[23:01:09] [Client thread/INFO]: 0
+[23:01:09] [Client thread/INFO]: -3752490015881447282
+[23:01:09] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:09] [Client thread/INFO]: Hier wird geclickt
+[23:01:09] [Client thread/INFO]: 0
+[23:01:09] [Client thread/INFO]: -3752490015881447282
+[23:01:09] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:09] [Client thread/INFO]: Hier wird geclickt
+[23:01:09] [Client thread/INFO]: 0
+[23:01:09] [Client thread/INFO]: -3752490015881447282
+[23:01:09] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:09] [Client thread/INFO]: Hier wird geclickt
+[23:01:09] [Client thread/INFO]: 0
+[23:01:09] [Client thread/INFO]: -3752490015881447282
+[23:01:09] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:10] [Client thread/INFO]: Hier wird geclickt
+[23:01:10] [Client thread/INFO]: 0
+[23:01:10] [Client thread/INFO]: -3752490015881447282
+[23:01:10] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:10] [Client thread/INFO]: Hier wird geclickt
+[23:01:10] [Client thread/INFO]: 0
+[23:01:10] [Client thread/INFO]: -3752490015881447282
+[23:01:10] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:10] [Client thread/INFO]: Hier wird geclickt
+[23:01:10] [Client thread/INFO]: 0
+[23:01:10] [Client thread/INFO]: -3752490015881447282
+[23:01:10] [Client thread/INFO]: 
+Seed: 0
+Neu: class net.minecraft.block.BlockBeacon
+Alt:class net.minecraft.block.Block
+[23:01:15] [Client thread/INFO]: Stopping!
+[23:01:15] [Client thread/INFO]: SoundSystem shutting down...
+[23:01:16] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

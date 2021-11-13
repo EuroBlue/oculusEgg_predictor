@@ -35,6 +35,11 @@ public class GuiIngameMenu extends GuiScreen
         this.buttonList.add(guibutton = new GuiButton(7, this.width / 2 + 2, this.height / 4 + 96 + i, 98, 20, I18n.format("menu.shareToLan", new Object[0])));
         this.buttonList.add(new GuiButton(5, this.width / 2 - 100, this.height / 4 + 48 + i, 98, 20, I18n.format("gui.achievements", new Object[0])));
         this.buttonList.add(new GuiButton(6, this.width / 2 + 2, this.height / 4 + 48 + i, 98, 20, I18n.format("gui.stats", new Object[0])));
+        GuiOculusEggOnOff.activ=new GuiButton(228, this.width / 2 - 100, this.height / 4 + (120+24)+i, GuiOculusEggOnOff.activ_text);
+        this.buttonList.add(GuiOculusEggOnOff.activ);
+        GuiOculusEggOnOff.EggSwitch=new GuiButton(1337, this.width / 2 - 100, this.height / 4 + (120+24+24)+i, GuiOculusEggOnOff.block_switch_text);
+        this.buttonList.add(GuiOculusEggOnOff.EggSwitch);
+        //GuiOculusEggOnOff.EggSwitch.visible=false;
         guibutton.enabled = this.mc.isSingleplayer() && !this.mc.getIntegratedServer().getPublic();
     }
 
@@ -90,6 +95,30 @@ public class GuiIngameMenu extends GuiScreen
 
             case 7:
                 this.mc.displayGuiScreen(new GuiShareToLan(this));
+            case 228:
+                if(GuiOculusEggOnOff.actiiv)
+                {
+                    GuiOculusEggOnOff.activToFalse();
+                }
+                else
+                {
+                    GuiOculusEggOnOff.activToTrue();
+                }
+                updateScreen();
+                initGui();
+                break;
+            case 1337:
+                if(GuiOculusEggOnOff.block_switch)
+                {
+                    GuiOculusEggOnOff.switchToFalse();
+                }
+                else
+                {
+                    GuiOculusEggOnOff.switchToTrue();
+                }
+                updateScreen();
+                initGui();
+                break;
         }
     }
 
